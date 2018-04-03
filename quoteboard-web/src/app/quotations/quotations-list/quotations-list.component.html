@@ -1,0 +1,24 @@
+<p>
+  quotations-list works!
+</p>
+
+<button (click)="fetchQuotations()">Fetch quotations</button>
+
+<h2>Quotations</h2>
+<br/>
+<table>
+  <thead>
+    <tr>
+      <th>Quote</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let quotation of quotations">
+      <td>{{quotation.quote}}</td>
+      <td><a routerLink="/quotations/{{quotation.id}}">View</a></td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<a routerLink="/quotations/new">New Quotation</a>

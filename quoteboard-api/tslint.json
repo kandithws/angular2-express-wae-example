@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "align": [
+      true,
+      "parameters"
+    ],
+    "curly": false,
+    "eofline": true,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ]
+  }
+}

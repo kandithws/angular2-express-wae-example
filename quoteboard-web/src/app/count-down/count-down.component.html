@@ -1,0 +1,3 @@
+<input placeholder="Countdown in seconds" [(ngModel)]="remainingTime"/>
+<p>Remaining time = {{remainingTime}} seconds</p>
+<button (click)="startCountDown()" [disabled]="isCountingDown">Start count down</button>
